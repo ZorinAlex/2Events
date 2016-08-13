@@ -1,0 +1,108 @@
+@import "colors";
+@import "fonts";
+.gradient(){
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&1+0,0+100;Neutral+Density */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+header{
+  p{
+    font-family: 'droidserif-bold';
+    font-size: 60px;
+  }
+  font-family: 'montserrat-bold';
+  background-color: @grey;
+  height: 1080px;
+
+    .container{
+      margin-top: 250px;
+      text-align: center;
+      h1{
+        font-size: 60pt;
+        color: white;
+      }
+    }
+  .btn{
+    font-size: 14px;
+    margin: 10px;
+    padding-top: 14px;
+    color: white;
+    height: 50px;
+    width: 156px;
+    background: @cyan;
+    border-radius: 0;
+    text-shadow: none;
+    border: none;
+    &:hover, &:focus{
+      padding-top: 12px;
+      color: white;
+      background: none;
+      border: 2px solid white;
+    }
+  }
+
+}
+
+.navbar{
+
+  font-size: 15px;
+  border: none;
+}
+
+.navbar-default{
+  .gradient;
+  border: none;
+  border-radius: 0;
+  height: 200px;
+  box-shadow: none;
+
+  .navbar-nav{
+    li{
+
+      text-transform: uppercase;
+      a{
+        color: white;
+        display: inline;
+        text-shadow: none;
+
+        &:hover, &:focus{
+          color:@cyan;
+        }
+      }
+      &:last-child{
+        height: 15px;
+        border-left: 1px solid @grey;
+      }
+    }
+
+    .navbar-right {
+      margin-top: 50px;
+      margin-right: 80px;
+    }
+  }
+}
+
+
+.navbar-brand{
+  margin: 40px 0 0 70px !important;
+}
+
+ul.nav.navbar-right {
+  margin-top: 50px;
+  margin-right: 80px;
+}
+.navbar-header{
+  button{
+    border: none;
+    margin-top: 45px;
+    margin-right: 50px;
+    background-color: #343131;
+  }
+  button:active{
+    background-color: #585555;
+  }
+}

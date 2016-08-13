@@ -1,0 +1,28 @@
+#video {
+  text-align: center;
+  margin-bottom: 350px;
+}
+#video .stripe {
+  height: 560px;
+  width: 100%;
+  background-color: #f8f8f8;
+  position: absolute;
+}
+#video .circle {
+  margin: 90px auto auto auto;
+  display: flex;
+  background-color: #29cadf;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+#video .circle .fa {
+  margin: auto;
+}
+#video .videoframe {
+  background-color: #cccccc;
+  height: 600px;
+  width: 100%;
+  top: 310px;
+  position: relative;
+}

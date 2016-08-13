@@ -1,0 +1,104 @@
+@media only screen and (max-width: 1200px) {
+  #speakers img {
+    height: 345px;
+  }
+  #speakers .photo .label {
+    bottom: 80px;
+  }
+  .hour-event {
+    margin: 0 auto!important;
+  }
+  .blog img {
+    height: 150px;
+  }
+  .hurry_up h4 {
+    margin-top: 55px ;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  header {
+    height: 640px;
+  }
+  header .container {
+    margin-top: 100px;
+  }
+  header .container h1 {
+    font-size: 40pt;
+  }
+  .navbar-brand {
+    margin: 10px 0 0 10px !important;
+  }
+  .navbar-default {
+    height: 125px;
+  }
+}
+@media only screen and (max-width: 1015px) {
+  header .container h1 {
+    font-size: 30pt;
+  }
+  .navbar {
+    font-size: 12px;
+  }
+  #about {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  #video {
+    margin-bottom: 80px;
+  }
+  #speakers {
+    height: 465px;
+  }
+  #speakers img {
+    height: 245px;
+  }
+  #speakers .photo .label {
+    bottom: 185px;
+  }
+  .form .btn {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  #map {
+    height: 300px;
+  }
+  .info h2 {
+    font-size: 10px;
+  }
+  .info p {
+    font-size: 9px;
+  }
+  .copyright {
+    font-size: 10px;
+  }
+  .copyright p {
+    font-size: 10px;
+  }
+  .hurry_up h4 {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 915px) {
+  ul.nav.navbar-right {
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+    font-size: 25px;
+    width: 100%;
+    z-index: 9999;
+  }
+  .navbar-default .navbar-nav li {
+    text-align: center;
+    background-color: #767676;
+  }
+  ul.nav.navbar-nav.navbar-right {
+    margin: 0;
+  }
+  div#bs-navbar-collapse-1 {
+    padding: 0;
+  }
+}

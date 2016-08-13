@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'montserrat-regular';
+  src: url('../fonts/montserrat-regular.eot');
+  src: url('../fonts/montserrat-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/montserrat-regular.woff2') format('woff2'), url('../fonts/montserrat-regular.woff') format('woff'), url('../fonts/montserrat-regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'montserrat-bold';
+  src: url('../fonts/montserrat-bold.eot');
+  src: url('../fonts/montserrat-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/montserrat-bold.woff2') format('woff2'), url('../fonts/montserrat-bold.woff') format('woff'), url('../fonts/montserrat-bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'droidserif';
+  src: url('../fonts/droidserif.eot');
+  src: url('../fonts/droidserif.eot?#iefix') format('embedded-opentype'), url('../fonts/droidserif.woff2') format('woff2'), url('../fonts/droidserif.woff') format('woff'), url('../fonts/droidserif.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'droidserif-bold';
+  src: url('../fonts/droidserif-bold.eot');
+  src: url('../fonts/droidserif-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/droidserif-bold.woff2') format('woff2'), url('../fonts/droidserif-bold.woff') format('woff'), url('../fonts/droidserif-bold.ttf') format('truetype');
+}

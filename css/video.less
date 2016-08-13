@@ -1,0 +1,32 @@
+@import "colors";
+@circleDiam:80px;
+
+#video{
+  text-align: center;
+  margin-bottom: 350px;
+  .stripe{
+    height: 560px;
+    width: 100%;
+    background-color: @softgrey;
+    position: absolute;
+  }
+  .circle{
+    margin: 90px auto auto auto;
+    display: flex;
+    background-color: @cyan;
+    width: @circleDiam;
+    height:@circleDiam;
+    border-radius: 50%;
+    .fa{
+      margin: auto;
+    }
+  }
+  .videoframe{
+    background-color: @grey;
+    height: 600px;
+    width: 100%;
+    top: 310px;
+    position: relative;
+  }
+
+}

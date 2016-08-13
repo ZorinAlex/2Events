@@ -1,0 +1,19 @@
+#brands img {
+  display: block;
+  margin: 20px auto;
+}
+#brands .col-md-4:nth-child(-n+2) {
+  border: 2px;
+  border-color: #f8f8f8;
+  border-style: none dashed dashed none;
+}
+#brands .col-md-4:nth-child(3) {
+  border: 2px;
+  border-color: #f8f8f8;
+  border-style: none none dashed none;
+}
+#brands .col-md-4:nth-child(n+5) {
+  border: 2px;
+  border-color: #f8f8f8;
+  border-style: none none none dashed;
+}

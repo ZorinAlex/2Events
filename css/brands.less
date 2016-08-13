@@ -1,0 +1,24 @@
+@import "colors.less";
+
+#brands{
+  img{
+    display: block;
+    margin: 20px auto;
+
+  }
+  .col-md-4:nth-child(-n+2){
+    border: 2px;
+    border-color: @softgrey;
+    border-style: none dashed dashed none;
+  }
+  .col-md-4:nth-child(3){
+    border: 2px;
+    border-color: @softgrey;
+    border-style: none none dashed none;
+  }
+  .col-md-4:nth-child(n+5){
+    border: 2px;
+    border-color: @softgrey;
+    border-style: none none none dashed;
+  }
+}

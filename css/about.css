@@ -1,0 +1,14 @@
+#about {
+  margin-top: 60px;
+}
+#about .img {
+  width: 370px;
+  height: 582px;
+  background-color: #cccccc;
+}
+#about .stripe {
+  width: 60px;
+  height: 2px;
+  background: #29cadf;
+  margin-left: 0;
+}

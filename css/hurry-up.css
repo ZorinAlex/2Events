@@ -1,0 +1,28 @@
+.hurry_up {
+  height: 150px;
+  background-color: #cccccc;
+  width: 100%;
+}
+.hurry_up h4 {
+  margin-top: 70px;
+  color: white;
+}
+.hurry_up .btn {
+  float: right;
+  margin-top: 50px;
+  padding-top: 14px;
+  color: white;
+  height: 50px;
+  width: 156px;
+  background: #29cadf;
+  border-radius: 0;
+  text-shadow: none;
+  border: none;
+}
+.hurry_up .btn:hover,
+.hurry_up .btn:focus {
+  padding-top: 12px;
+  color: white;
+  background: none;
+  border: 2px solid white;
+}

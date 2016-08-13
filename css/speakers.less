@@ -1,0 +1,49 @@
+@import "colors";
+
+#speakers{
+  h1{
+    color:white;
+  }
+  background: @darkgrey;
+  text-align: center;
+  color:white;
+  .stripe{
+    width: 60px;
+    height: 2px;
+    background: @cyan;
+    margin: 0 auto;
+  }
+
+  .photo{
+    margin: 50px 0;
+    height: 413px;
+    position:relative;
+    .label{
+        color: white;
+        visibility: hidden;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-align: left;
+      .stripe{
+        width: 35px;
+        background-color: white;
+        margin: 0 0 10px 0;
+      }
+      .fa:hover{
+          color: @cyan;
+      }
+    }
+
+    &:hover{
+      img{
+        -webkit-transition : -webkit-filter 0.5s ease-in;
+        -webkit-filter: brightness(50%);
+      }
+
+      .label{
+        visibility: visible;
+      }
+    }
+  }
+}

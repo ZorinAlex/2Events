@@ -1,0 +1,42 @@
+#speakers {
+  background: #343131;
+  text-align: center;
+  color: white;
+}
+#speakers h1 {
+  color: white;
+}
+#speakers .stripe {
+  width: 60px;
+  height: 2px;
+  background: #29cadf;
+  margin: 0 auto;
+}
+#speakers .photo {
+  margin: 50px 0;
+  height: 413px;
+  position: relative;
+}
+#speakers .photo .label {
+  color: white;
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+}
+#speakers .photo .label .stripe {
+  width: 35px;
+  background-color: white;
+  margin: 0 0 10px 0;
+}
+#speakers .photo .label .fa:hover {
+  color: #29cadf;
+}
+#speakers .photo:hover img {
+  -webkit-transition: -webkit-filter 0.5s ease-in;
+  -webkit-filter: brightness(50%);
+}
+#speakers .photo:hover .label {
+  visibility: visible;
+}

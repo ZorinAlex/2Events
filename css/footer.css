@@ -1,0 +1,28 @@
+#map {
+  width: 100%;
+  height: 500px;
+}
+.footer {
+  background-color: #343131;
+  color: white;
+}
+.footer h2 {
+  font-family: 'montserrat-bold';
+  color: white;
+}
+.footer p > i {
+  color: white;
+  margin-right: 15px;
+}
+.copyright {
+  padding: 20px 0 10px 0;
+  background-color: #000000;
+}
+.social > i {
+  float: right;
+  padding-left: 25px;
+}
+.input-group-addon {
+  background-color: #29cadf;
+  color: white;
+}

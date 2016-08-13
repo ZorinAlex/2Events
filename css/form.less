@@ -1,0 +1,38 @@
+@import "colors";
+.form{
+line-height: normal;
+background-color: @softgrey;
+
+.stripe{
+  margin-left: 0;
+}
+img{
+padding-left: 0;
+}
+  textarea{
+    resize: none;
+  }
+
+  .btn{
+    margin-top: 50px;
+    color: white;
+    height: 50px;
+    width: 156px;
+    background: @cyan;
+    border-radius: 0;
+    text-shadow: none;
+    border: none;
+    &:hover, &:focus{
+
+      color: @darkgrey;
+      background:@grey ;
+      border: 2px solid white;
+    }
+  }
+}
+.padding{
+  padding: 0 0 0 5px;
+  &:first-child{
+    padding: 0 5px 0 0;
+  }
+}

@@ -1,0 +1,35 @@
+.form {
+  line-height: normal;
+  background-color: #f8f8f8;
+}
+.form .stripe {
+  margin-left: 0;
+}
+.form img {
+  padding-left: 0;
+}
+.form textarea {
+  resize: none;
+}
+.form .btn {
+  margin-top: 50px;
+  color: white;
+  height: 50px;
+  width: 156px;
+  background: #29cadf;
+  border-radius: 0;
+  text-shadow: none;
+  border: none;
+}
+.form .btn:hover,
+.form .btn:focus {
+  color: #343131;
+  background: #cccccc;
+  border: 2px solid white;
+}
+.padding {
+  padding: 0 0 0 5px;
+}
+.padding:first-child {
+  padding: 0 5px 0 0;
+}
